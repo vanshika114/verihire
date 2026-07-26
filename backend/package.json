@@ -15,7 +15,9 @@
     "dotenv": "^16.4.1",
     "express": "^4.21.2",
     "morgan": "^1.10.4",
-    "multer": "^2.0.1"
+    "multer": "^2.0.1",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.5",
