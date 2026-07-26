@@ -38,7 +38,7 @@ export function UploadStepper() {
         const formData = new FormData();
         formData.append('file', selectedFile);
 
-        response = await fetch('http://localhost:5000/api/analyze/pdf', {
+        response = await fetch('http://localhost:3000/api/analyze/pdf', {
           method: 'POST',
           body: formData,
         });

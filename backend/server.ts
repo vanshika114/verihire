@@ -1,7 +1,9 @@
+import "dotenv/config"; // Must be configured BEFORE importing controllers/services!
+
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
 import morgan from "morgan";
+
 import analysisRoutes from "./routes/analysis.routes.js";
 import authRoutes from "./routes/auth.routes.js";
 import communityRoutes from "./routes/community.routes.js";
@@ -9,7 +11,6 @@ import offerRoutes from "./routes/offer.routes.js";
 import reportRoutes from "./routes/report.routes.js";
 import { globalErrorHandler, notFoundHandler } from "./middleware/error.middleware.js";
 
-dotenv.config();
 console.log("Gemini key loaded:", !!process.env.GEMINI_API_KEY);
 
 const app = express();

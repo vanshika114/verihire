@@ -1,5 +1,5 @@
 // @ts-ignore
-import pdfParse from "pdf-parse";
+import pdfParse from 'pdf-parse/lib/pdf-parse.js';
 
 export interface PdfParseError extends Error {
   name: string;
