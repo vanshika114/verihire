@@ -11,6 +11,7 @@ const navItems = [
   { label: 'Home', href: '/', isRoute: true },
   { label: 'Features', href: '#features', isRoute: false },
   { label: 'How It Works', href: '#how-it-works', isRoute: false },
+  { label: 'Company', href: '/company/auth/login', isRoute: true },
   { label: 'Community', href: '/community', isRoute: true },
   { label: 'About', href: '/about', isRoute: true },
 ];
