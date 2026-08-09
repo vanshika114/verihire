@@ -51,7 +51,7 @@ export default function CompanyLoginPage() {
 
     setCompany(company);
     setIsSubmitting(false);
-    router.push('/company/dashboard');
+    router.push('/company/dashboard/pipeline');
   };
 
   return (

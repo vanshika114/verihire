@@ -1,4 +1,4 @@
-import type { Company } from 'src/types/company.ts';
+import type { Company } from '@/types/company';
 
 export const mockCompanies: Record<string, Company> = {
   'comp-001': {

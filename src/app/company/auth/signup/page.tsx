@@ -90,7 +90,7 @@ export default function CompanySignupPage() {
 
     setCompany(newCompany);
     setIsSubmitting(false);
-    router.push('/company/dashboard');
+    router.push('/company/dashboard/pipeline');
   };
 
   return (
